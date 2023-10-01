@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(./img/emoji.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+}
+
+h1 , p {
+    color: blueviolet;
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top: 10rem;
+}
+
+.bigger-text {
+    font-size: 1.5rem;
+}
+
+.container {
+    background-image: url(./img/window.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    margin-top: 10rem;
+}
